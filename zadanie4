@@ -13,7 +13,7 @@ public class Main {
         int step = start;
 
         System.out.println("Ряд квадратов:");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < chislo1; i++) {
             System.out.println(start * start);
             start += step;
         }
